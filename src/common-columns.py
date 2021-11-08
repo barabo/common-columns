@@ -17,7 +17,9 @@
 # - [ ] --logfile - output logging to a file (default unset)
 
 import sys
-# TODO: figure out how to import the module / where to put this script
+
+# TODO: figure out how to import the module / where to put this script / setuptools?
+# https://stackoverflow.com/questions/16981921/relative-imports-in-python-3
 
 def main():
     # TODO: get data
@@ -25,6 +27,6 @@ def main():
     return 0
 
 
-if __name__ == '__main__':
-    print('common-columns')
+if __name__ == "__main__":
+    print("common-columns")
     sys.exit(main())
